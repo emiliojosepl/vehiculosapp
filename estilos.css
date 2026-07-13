@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    background: white;
+    width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.entrada{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+}
+
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btnAgregar{
+    background: #4caf50;
+}
+
+#btnAgregar:hover{
+    background: #43a047;
+}
+
+#btnActualizar{
+    background: orange;
+}
+
+#btnActualizar:hover{
+    background: darkorange;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    background: #f5f5f5;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+    gap: 5px;
+}
+
+.editar{
+    background: #2196f3;
+}
+
+.editar:hover{
+    background: #1976d2;
+}
+
+.eliminar{
+    background: red;
+}
+
+.eliminar:hover{
+    background: darkred;
+}
